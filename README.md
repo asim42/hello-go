@@ -6,3 +6,9 @@ Hello Go project with go mod
 ```
 go clean -cache -modcache -i -r
 ```
+
+## Download all packages
+
+```
+go get ./...
+```
