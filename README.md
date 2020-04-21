@@ -12,3 +12,9 @@ go clean -cache -modcache -i -r
 ```
 go get ./...
 ```
+
+## List versions of a package
+
+```
+go list -m -versions go.uber.org/zap
+```
